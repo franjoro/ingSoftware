@@ -1,0 +1,34 @@
+@startuml diagramaDeEstados
+
+
+
+State Articulo{
+    
+    
+    PostularArticulo --> RevisarArticulo : RevisarArticulo
+    
+    RevisarArticulo --> AprobarArticulo : AprobarArticulo
+    
+    RevisarArticulo --> RechazarArticulo : RechazarArticulo
+    
+    AprobarArticulo --> ArticuloPublicado : PublicarArticulo
+    
+    RechazarArticulo --> PostularArticulo : PostularArticulo
+    
+    ArticuloPublicado --> [*] : PublicarArticulo
+
+}
+
+
+@enduml
+/' 
+
+
+Zed
+
+git init .then mimir
+Postular articulo --> se asigna -->
+--> comentarios --> aprobacion´
+
+'/
+
