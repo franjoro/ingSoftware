@@ -21,12 +21,7 @@ State Articulo{
 
 
 @enduml
-/' 
-
-
-Zed
-
-git init .then mimir
+/'  
 Postular articulo --> se asigna -->
 --> comentarios --> aprobacion´
 
